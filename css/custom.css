@@ -1,0 +1,9 @@
+#header {
+  background-color: var(--primary);
+  width: 100%;
+  transition: background 0.5s ease;
+}
+
+#header .navbar {
+  justify-content: unset;
+}
