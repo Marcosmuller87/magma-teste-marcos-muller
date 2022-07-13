@@ -1,4 +1,21 @@
 body,
 html {
   font-family: "Poppins", sans-serif;
+  background-color: var(--secondary);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--orange-5);
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+  font-size: 0.6rem;
 }
