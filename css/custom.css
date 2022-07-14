@@ -7,3 +7,30 @@
 #header .navbar {
   justify-content: unset;
 }
+
+#header .navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+
+#header .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(196, 181, 253, 1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#sidebar {
+  background-color: var(--light);
+  height: 100vh;
+  transition: background 0.5s ease;
+}
+
+#sidebar span {
+  color: var(--gray-4);
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+#sidebar .active,
+.nav-link:hover {
+  background-color: var(--orange-1);
+  border-right: 2px solid var(--orange-5);
+}

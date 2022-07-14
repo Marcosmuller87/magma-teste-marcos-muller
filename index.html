@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- Meta tags requeridas -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Styles -->
+    <!-- Estilos -->
     <link rel="stylesheet" href="./css/main.css" />
-    <!-- Fonts -->
+    <!-- Fontes -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
@@ -14,15 +14,23 @@
     <title>Magma Teste - Marcos Muller</title>
   </head>
   <body>
-    <!-- Header -->
+    <!-- Início do Header -->
     <div id="header">
       <nav class="navbar navbar-expand-sx navbar-light d-flex">
         <a class="navbar-brand mx-5" href="#">
           <img src="./assets/Group.svg" alt="logo" class="img-fluid" />
         </a>
-        <a class="btn border-0" id="menu-btn">
-          <img src="./assets/hamburguer.svg" alt="logo" class="img-fluid" />
-        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#sidebar"
+          aria-controls="sidebar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <ul class="navbar-nav d-flex flex-row ms-auto px-3">
           <li class="me-3">
             <a class="nav-link" href="#">
@@ -37,6 +45,59 @@
         </ul>
       </nav>
     </div>
-    <!-- Header End -->
+    <!-- Fim do Header -->
+    <!-- Início do Conteúdo -->
+    <div class="container-fluid content-wrapper">
+      <div class="row">
+        <!-- Início do Sidebar -->
+        <div
+          class="col-md-4 col-lg-2 col-12 ms-0 p-0 collapse d-flex"
+          id="sidebar"
+        >
+          <ul class="nav flex-column w-100">
+            <li href="#" class="nav-link">
+              <img src="./assets/mão.svg" alt="projetos" class="img-fluid" />
+              <span class="mx-2">Declarações de trabalho</span>
+            </li>
+            <li href="#" class="nav-link">
+              <img src="./assets/foco.svg" alt="projetos" class="img-fluid" />
+              <span class="mx-2">Pré-projetos</span>
+            </li>
+            <li href="#" class="nav-link">
+              <img
+                src="./assets/projetos.svg"
+                alt="projetos"
+                class="img-fluid"
+              />
+              <span class="mx-2">Projetos</span>
+            </li>
+            <li href="#" class="nav-link">
+              <img
+                src="./assets/portfolio.svg"
+                alt="projetos"
+                class="img-fluid"
+              />
+              <span class="mx-2">Portfolios</span>
+            </li>
+            <li href="#" class="nav-link active">
+              <img
+                src="./assets/documento.svg"
+                alt="projetos"
+                class="img-fluid"
+              />
+              <span class="mx-2">Controle de Demandas</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Fim do Sidebar -->
+      </div>
+    </div>
+    <!-- Fim do Conteúdo -->
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
