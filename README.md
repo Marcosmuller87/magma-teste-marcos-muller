@@ -1,1 +1,1 @@
-Para manter o código o mais simples possível use o arquivo bootstrap.min diretamente no projeto, provavelmente em um projeto maior eu instalaria bootsrap.
+Para manter o código o mais simples possível use apenas HTML, CSS e Bootstrap use o arquivo bootstrap.min diretamente no projeto, provavelmente em um projeto maior eu instalaria Bootsrap nas dependências do projeto.
