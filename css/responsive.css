@@ -1,5 +1,8 @@
-@media (max-widht: 992px) {
+@media (min-width: 768px) {
   #sidebar {
-    height: auto;
+    height: 100vh;
+  }
+  #cards .input-group {
+    justify-content: space-between;
   }
 }
